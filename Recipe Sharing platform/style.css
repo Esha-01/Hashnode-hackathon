@@ -1,0 +1,316 @@
+
+     body {
+      background-color: #FFD8A9;
+      font-family: 'Poppins', sans-serif;
+
+    }
+    *{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      text-decoration: none;
+      border: none;
+      transition: all .2s linear;
+    }
+    .navbar {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 10px;
+      background-color: #F1A661;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .navbar li {
+      margin-right: 10px;
+    }
+
+    .navbar li a {
+      text-decoration: none;
+      color: #FDEEDC;
+      padding: 10px;
+      transition: color 0.3s;
+    }
+
+    .navbar li a:hover {
+      color: #ff0000; /* Change to the desired hover color */
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      margin-right: auto;
+    }
+
+    .logo-image {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+      
+    }
+
+    .logo-name {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .icon {
+        color: #333;
+        font-size: 30px;
+        padding:10px;
+        cursor: pointer;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #FFD8A9;
+      }
+  
+      .image {
+        position: relative;
+        width: 900px;
+        max-width: 100%;
+        height: auto;
+      }
+  
+      .image img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+  
+      .caption {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: right;
+      }
+  
+      .caption h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+  
+      .signup-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color:green; /* Change to desired button background color */
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+    .image-container {
+        position: relative;
+        display: inline-block;
+        border: 10px solid #FDEEDC;
+        border-radius: 10px;
+      }
+  
+      .image-container img {
+        display: block;
+        width: 800px; /* Adjust the width as needed */
+        height: auto;
+        border-radius: 10px;
+      }
+  
+      .sign-up-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 20px;
+        background-color: #ff0000; /* Change to desired button background color */
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .container1 {
+        display: flex;
+        background-color: #FFD8A9;
+      }
+      
+      .left-section {
+        flex: 1;
+        padding: 20px;
+        margin-top: 40px;
+       
+      }
+      
+      .right-section {
+        flex: 1;
+        padding: 20px;
+      }
+      
+      h1 {
+        font-size: 24px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+      }
+      
+      p {
+        font-size: 16px;
+      }
+      .container2{
+        background-color:#E38B29;
+        width: auto;  
+        text-align: center;  
+        padding: 15px;  
+        /* border: 3px solid black;  */
+      }
+      .d-block{
+        height: 600px;
+        width:700px;
+        margin:30px
+      }
+      
+      .carousel-caption{
+        position: absolute;
+        top: 50%;
+        transform: translate(30%, -50%);
+        text-align: right;
+        color: #fff;
+        padding: 20px;
+      }
+      
+      h3 {
+        font-size: 45px;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      
+      p {
+        font-size: 20px;
+      }
+      .browse{
+        width:100%;
+        height:auto;
+      }
+
+      /* footer {
+        background-color: #f0f0f0;
+        padding: 20px;
+        text-align: center;
+      
+      }
+      
+      .footer-section {
+        margin-bottom: 20px;
+        background-color: #E38B29;
+      }
+      
+      h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      ul {
+        list-style-type: none;
+        padding: 5px;
+        margin-top:30px;
+      }
+      
+      ul li {
+        display: inline;
+        margin-right: 10px;
+      }
+      
+      ul li a {
+        color: #333;
+        text-decoration: none;
+        padding:15px;
+      }
+      
+      #subscribe-form {
+        margin-top: 10px;
+      }
+      
+      #subscribe-form input[type="email"] {
+        padding: 5px;
+      }
+      
+      #subscribe-form button {
+        padding: 5px 10px;
+      }
+      
+      .social-icons {
+        margin-top: 10px;
+      }
+      
+      .social-icons a {
+        margin-right: 10px;
+      } */
+      footer {
+        background-color: orange;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .footer-section {
+        margin-bottom: 20px;
+      }
+      
+      h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      ul li {
+        display: inline;
+        margin-right: 10px;
+      }
+      
+      ul li a {
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 5px;
+      }
+      
+      #subscribe-form {
+        margin-top: 10px;
+      }
+      
+      #subscribe-form input[type="email"] {
+        padding: 5px;
+      }
+      
+      #subscribe-form button {
+        padding: 5px 10px;
+      }
+      
+      .social-icons {
+        margin-top: 20px;
+      }
+      
+      .social-icons a {
+          margin-right: 10px;
+          color: #333;
+          font-size: 20px;
+          padding:10px;
+          cursor: pointer;
+      }
+    
+      
